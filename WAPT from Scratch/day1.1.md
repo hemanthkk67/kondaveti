@@ -41,25 +41,33 @@ I observed this is an email finder and email verifier tool which allows to perfo
 10)spiderfoot.net(OSINT)
 
 ## Tools
+
 1)dig
 
 used dig tool to finding dns record types, dns paths,nameservers ..etc
 
 dig flickr.com.com txt (Query TXT record)
+
 dig flickr.com cname (Query CNAME record)
+
 dig flickr.com ns (Query NS record)
+
 dig flickr.com A (Query A record)
 
 2)nmap
+  
   finded target open ports, os detection, vuln script cve  details 
 
 3)amass
+ 
  ~./myconfigfile.ini
+ 
  ~ amass enum -src -ip -d flickr.com
  
 
 
 4)aquatone
+   
    finding the subdomains scanning, information,takeover possiblities for flickr.com
 
 5)sublist3r
