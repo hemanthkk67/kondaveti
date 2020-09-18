@@ -1,14 +1,14 @@
-##websites to start recon
+## websites to start recon
 
 1)shodan.io
  
  SHODAN is designed to help the user find specific nodes (desktops, servers, routers, switches, etc.) with specific content
 
-#####I have login and found api key and  used shodan for finding information about uber.com using google dorks 
+##### I have login and found api key and  used shodan for finding information about uber.com using google dorks 
 eg. apache hostname:.uber.com
        apache 2.2.1
 
-2)censys.io
+   2)censys.io
  i have used censys.io to found the protocols and ipv4 hosts ,website backend servers information for indeed.com 
 
 3)crt.sh
@@ -56,7 +56,7 @@ dig flickr.com A (Query A record)
 3)amass
  ~./myconfigfile.ini
  ~ amass enum -src -ip -d flickr.com
- ~
+ 
 
 
 4)aquatone

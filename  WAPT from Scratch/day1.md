@@ -1,5 +1,5 @@
-#kali CLI commands 
-##root directory path:
+# kali CLI commands 
+## root directory path:
 hspace@kali:~$ cat /etc/passwd | head
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -12,12 +12,13 @@ lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
 
-##checking with id:
-
+## checking with id:
+**** 
 hspace@kali:~$ id
 uid=1000(hspace) gid=1000(hspace) groups=1000(hspace),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),109(netdev),117(bluetooth),131(scanner)
+***
 
-##hspace@kali:~$ cat /etc/passwd 
+## hspace@kali:~$ cat /etc/passwd 
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -74,8 +75,9 @@ systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 tomcat8:x:133:141::/var/lib/tomcat8:/bin/false
 uuidd:x:134:142::/run/uuidd:/usr/sbin/nologin
 
+***
 
-##hspace@kali:~$  cat /etc/passwd | tail
+## hspace@kali:~$  cat /etc/passwd | tail
 saned:x:127:134::/var/lib/saned:/usr/sbin/nologin
 inetsim:x:128:136::/var/lib/inetsim:/usr/sbin/nologin
 colord:x:129:137:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
@@ -86,19 +88,21 @@ hspace:x:1000:1000:hspace,,,:/home/hspace:/bin/bash
 systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 tomcat8:x:133:141::/var/lib/tomcat8:/bin/false
 uuidd:x:134:142::/run/uuidd:/usr/sbin/nologin
-
-hspace@kali:~$ sudo cat /etc/shadow | grep root
+***
+### hspace@kali:~$ sudo cat /etc/shadow | grep root
 root:$6$Cug5CfpKh4tdIbCi$F5hgmISlY81ePpAkaTsXwSqAy6Yr/AfjoCBPlGR/LbD.h2R3W1fZAuBtsObmrVFJ6fbw/y4iTHq.QZqs.Wb.L.:18439:0:99999:7:::
 
 Checking ifconfig:
 
-###hspace@kali:~$ ifconfig
+### hspace@kali:~$ ifconfig
 bash: ifconfig: command not found
 hspace@kali:~$ /usr/bin/ifconfig
 bash: /usr/bin/ifconfig: No such file or directory
-###hspace@kali:~$ echo  $PATH
+hspace@kali:~$ echo $PATH
 /usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
-###hspace@kali:~$ export PATH=$PATH:/usr/sbin
+***
+
+### hspace@kali:~$ export PATH=$PATH:/usr/sbin
 hspace@kali:~$ ifconfig
 eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         ether b4:b5:2f:c6:68:60  txqueuelen 1000  (Ethernet)
