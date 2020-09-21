@@ -18,7 +18,7 @@ used crt.sh for indeed.com to find the regestered domains certifications validat
 i found the 2010 year snapshots for the flickr.com and website view, its behaviour using waybackmachine 
 
 5)mxtoolbox.com
-
+https://www.stationx.net/nmap-cheat-sheet/
 founded ip address, hostname using mxtoolbox also information observered like spf, dmarc records,whois etc.
 
 
@@ -29,7 +29,7 @@ founded ip address, hostname using mxtoolbox also information observered like sp
 
 GreyNoise is a system that collects and analyzes data on Internet-wide scanners. GreyNoise collects data on benign scanners such as Shodan.io, as well as malicious actors like SSH and telnet worms.
 
-The data is collected by a network of sensors deployed around the Internet in various datacenters, cloud providers, and regions.
+The data is collected by a network of sensors deployed around the Internet in various datacenters, cloud providershttps://www.stationx.net/nmap-cheat-sheet/, and regions.
 
 
 8)hunter.io
@@ -42,7 +42,7 @@ I observed this is an email finder and email verifier tool which allows to perfo
 
 ## Tools
 
-1)dig
+1) ### dig
 
 used dig tool to finding dns record types, dns paths,nameservers ..etc
 
