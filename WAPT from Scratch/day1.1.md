@@ -57,8 +57,12 @@ dig flickr.com A (Query A record)
 2)nmap
   
   finded target open ports, os detection, vuln script cve  details 
+  
+  followed from below nmap cheatsheet concepts
+  
+  https://www.stationx.net/nmap-cheat-sheet/
 
-3)amass
+3) ### amass
 
 #finding with org name 
  
@@ -84,7 +88,7 @@ dig flickr.com A (Query A record)
  
  ~amass -active -brute -o hosts.txt -d uber.com
 
-4) aquatone
+4) ### aquatone
    
    finding the subdomains scanning, information,takeover possiblities for flickr.com
    
@@ -95,7 +99,7 @@ dig flickr.com A (Query A record)
    ~aquatone-scan --domain indeed.com --ports 80,443,
    
 
-5) # sublist3r
+5) ### sublist3r
 
 finding subdomains 
 
