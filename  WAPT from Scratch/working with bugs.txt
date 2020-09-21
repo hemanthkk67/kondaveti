@@ -1,5 +1,0 @@
-finding the bugs will include many ways methos scenarios as we know manually or running some tools but the best practical method for begginners is following the proper recon process maually like
-information gathering
-scanning for vulnerabilities 
-finding all loopholes 
-study about the target behaviour.
