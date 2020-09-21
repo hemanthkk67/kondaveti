@@ -45,3 +45,6 @@ commit changes to my github
 ~ curl hemanth.host -I
  
  now checked localhost with virtual host name ie. hemanth.host was succesfully loaded. 
+
+
+ ![image1](/home/hspace/pethub/WAPT from Scratch/Day2(create login page)/Screenshot_2020-09-21_09-59-12.png).
