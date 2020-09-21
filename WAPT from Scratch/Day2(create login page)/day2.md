@@ -22,7 +22,7 @@ commit changes to my github
 
 ~checking localhost status of my created page .  
 
-![image2](https://github.com/hemanthkk67/pethub/blob/master/WAPT%20from%20Scratch/Day2(create%20login%20page)/Screenshot_2020-09-21_09-59-12.png)
+![image2](https://github.com/hemanthkk67/pethub/blob/master/WAPT%20from%20Scratch/Day2(create%20login%20page)/Screenshot_2020-09-21_11-46-45.png)
 
 ***
 ### created virtual host for local host changing server name
