@@ -22,6 +22,8 @@ commit changes to my github
 
 ~checking localhost status of my created page .  
 
+![image2]()
+
 ***
 ### created virtual host for local host changing server name
 ***
@@ -46,5 +48,10 @@ commit changes to my github
  
  now checked localhost with virtual host name ie. hemanth.host was succesfully loaded. 
 
+***
+Bypassed login page 
+tested with below credentials
+
+ admin' or 1=1#
 
  ![image1](https://github.com/hemanthkk67/pethub/blob/master/WAPT%20from%20Scratch/Day2(create%20login%20page)/Screenshot_2020-09-21_09-59-12.png)
