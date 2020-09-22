@@ -1,2 +1,2 @@
 # kondaveti
-same description
+same description its ok.
