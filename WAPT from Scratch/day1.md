@@ -111,7 +111,8 @@ hspace@kali:~$ echo $PATH
 
 ### hspace@kali:~$ export PATH=$PATH:/usr/sbin
 
-hspace@kali:~$ ifconfig
+###  hspace@kali:~$  ifconfig
+
 eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         ether b4:b5:2f:c6:68:60  txqueuelen 1000  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
